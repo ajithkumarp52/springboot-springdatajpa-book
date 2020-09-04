@@ -49,17 +49,17 @@ public class BookServiceImpl implements BookService{
 	}
 	@Override
 	public List<Book> findByAuthorName(String authorName) {
-		// TODO Auto-generated method stub
+		
 		return bookRepository.findByAuthorName(authorName);
 	}
 	@Override
 	public List<Book> findByPublisher(String publisher) {
-		// TODO Auto-generated method stub
+		
 		return bookRepository.findByPublisher(publisher);
 	}
 	@Override
 	public List<Book> findByCategory(String category) {
-		// TODO Auto-generated method stub
+		
 		return bookRepository.findByCategory(category);
 	}
 	
